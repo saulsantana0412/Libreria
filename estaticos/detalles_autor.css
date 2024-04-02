@@ -1,0 +1,32 @@
+body{
+    background-color: var(--color-fondo);
+    height: 100%;
+}
+
+.detalles_autor-contenedor{
+    padding: 0 var(--padding);
+    width: 100%;
+    height: 410px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.imagen_autor-contenedor{
+    width: 500px;
+    height: 500px;
+}
+
+.imagen_autor-contenedor img{
+    width: 100%;
+}
+
+.datos_autor-contenedor{
+    width: 100%;
+    margin-left: 40px;
+}
+
+
+.datos_autor-contenedor p{
+    margin: 5px 0 15px 0;
+}
+
